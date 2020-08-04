@@ -1,0 +1,54 @@
+@import 'normal.css';
+@font-face{
+    font-family: ismoil;
+    src: url(../fonts/digital-7\ \(italic\).ttf);
+}
+
+.button{
+    width: 67px;
+    height: 62px;
+    font-size: 45px;
+    margin: 2px;
+    cursor: pointer;
+    color: rgb(29, 29, 29);
+    font-family: ismoil;
+    border: 3px solid rgb(17, 17, 17);
+}
+.button:active{
+    background-color: rgb(44, 44, 44);
+    color: antiquewhite;
+   
+}
+.textview{
+    font-family: ismoil;
+    border: 3px solid rgb(17, 17, 17);
+    color: rgb(63, 63, 63);
+    width: 300px;
+    margin: 5px auto;
+    margin-bottom: 0;
+    font-size: 36px;
+    border-bottom: 0;
+    padding: 5px;
+
+}
+.main{
+    width: auto;
+    height: auto;
+    background:linear-gradient(to right red, blue);
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translateX(-50%) translateY(-50%);
+}
+
+.menular{
+    width: 100%;
+    height: 100vh;
+    background: repeating-linear-gradient(45deg, black 5%, rgb(68, 68, 68) 10%);
+}
+table{
+    
+    border: 3px solid rgb(15, 15, 15);
+    background-color: rgb(22, 22, 22);
+    border-top: 0;
+}

@@ -1,0 +1,49 @@
+@import 'normal.css';
+body{
+    background-color: #000;
+    color: aliceblue;
+
+}
+#input{
+    border: 2px solid blue;
+    box-shadow: 0 0 20px blue;
+}
+#h1{
+    animation: animate 16s linear infinite alternate;
+    font-size: 100px;
+    margin-top: 200px;
+}
+@keyframes animate{
+    10%{
+        text-shadow:0 0 50px blue;
+    }
+    20%{
+        
+        text-shadow:0 0 50px red;
+    }
+    30%{
+        text-shadow:0 0 50px rgb(55, 235, 0);
+    }
+    40%{
+        text-shadow:0 0 50px rgb(255, 251, 0);
+    }
+    50%{
+        text-shadow:0 0 50px rgb(0, 225, 255);
+    }
+    60%{
+        text-shadow:0 0 50px rgb(247, 0, 255);
+    }
+    70%{
+        text-shadow:0 0 50px rgb(255, 0, 0);
+    }
+    80%{
+        text-shadow:0 0 50px rgb(51, 255, 0);
+    }
+    90%{
+       
+        text-shadow:0 0 50px blue;
+    }
+    100%{
+        text-shadow:0 0 50px red;
+    }
+}

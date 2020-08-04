@@ -1,0 +1,80 @@
+@import 'normal.css';
+body{
+    font-family: algerian;
+    background:repeating-linear-gradient(45deg, rgb(155, 155, 155) 7%,rgb(37, 37, 37) 14%);
+}
+
+.nav{
+    border-radius: 0 100px 0 100px;
+    width: 900px;
+    height: 100px;
+    margin: 0 auto;
+    font-size: 60px;
+    text-align: center;
+    background-color: #888;
+    -webkit-border-radius: 0 100px 0 100px;
+    -moz-border-radius: 0 100px 0 100px;
+    -ms-border-radius: 0 100px 0 100px;
+    -o-border-radius: 0 100px 0 100px;
+}
+.byismoil{
+    font-size: 40px;
+   text-align: right;
+   vertical-align: top;
+   margin-top: -20px;
+   margin-right: 20px;
+}
+.main{
+    width: 1200px;
+    height: 550px;
+    background: rgba(117, 117, 117, 0.575);
+    margin: 0 auto;
+    display: flex;
+    border: 3px groove grey;
+    border-radius: 20px;
+    justify-content: space-between;
+    -webkit-border-radius: 20px;
+    -moz-border-radius: 20px;
+    -ms-border-radius: 20px;
+    -o-border-radius: 20px;
+}
+.div1 , .div2{
+    width: 599px;
+    height: 550px;
+    
+    
+    
+}
+.div1{
+    border-radius: 100px 0 0 100px;
+    -webkit-border-radius: 100px 0 0 100px;
+    -moz-border-radius: 100px 0 0 100px;
+    -ms-border-radius: 100px 0 0 100px;
+    -o-border-radius: 100px 0 0 100px;
+}
+.div2{
+    border-radius:  0 100px 100px 0;
+    -webkit-border-radius:  0 100px 100px 0;
+    -moz-border-radius:  0 100px 100px 0;
+    -ms-border-radius:  0 100px 100px 0;
+    -o-border-radius:  0 100px 100px 0;
+}
+#block{
+    background-color: rgb(68, 68, 68);
+    width: 400px;
+    height: 400px;
+    border: 5px solid rgb(31, 30, 30);
+    margin: 0px auto 75px;
+    border-radius: 0px 0px 0px 0px ;
+    -webkit-border-radius: 0px 0px 0px 0px ;
+    -moz-border-radius: 0px 0px 0px 0px ;
+    -ms-border-radius: 0px 0px 0px 0px ;
+    -o-border-radius: 0px 0px 0px 0px ;
+}
+#table{
+    margin: 80px auto;
+    border: 5px groove rgb(78, 78, 78);
+}
+#table tr{
+    border: 5px groove rgb(0, 0, 0);
+}
