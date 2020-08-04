@@ -1,0 +1,599 @@
+    @import 'normal.css';
+    body {
+        font-family: arial;
+        top: 0;
+        width: 100%;
+    }
+    
+    html {
+        width: 100%;
+    }
+    
+    .s1 {
+        width: 100%;
+        height: 100vh;
+        background-color: rgb(228, 221, 207);
+        left: 0px;
+        top: 0px;
+    }
+    
+    .s1 menu {
+        list-style-type: none;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        float: right;
+        width: 800px;
+        margin-right: -90px;
+        font-size: 14px;
+        align-items: center;
+    }
+    
+    .duck {
+        display: inline;
+        align-items: center;
+        display: flex;
+        justify-content: space-evenly;
+        align-items: center;
+        font-size: 20px;
+        font-weight: 600;
+        margin-left: 40px;
+    }
+    
+    .banner {
+        padding-top: 10px;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-around;
+        width: 100%;
+    }
+    
+    .s1 a {
+        text-decoration: none;
+        color: black;
+        border: .5px solid  rgb(228, 221, 207);
+        padding: 0px;
+        transition-property: all;
+        transition-duration: .3s;
+    }
+    
+    .s1 a:hover {
+        text-decoration: none;
+        color: rgb(121, 113, 72);
+        text-shadow: rgb(253, 255, 147) 0 0 10px;
+        border: 1px solid  rgb(136, 131, 131);
+        padding: 10px;
+        border-radius: 100px;
+        box-shadow: inset  rgb(143, 143, 143) 0 0 10px;
+        -webkit-border-radius: 100px;
+        -moz-border-radius: 100px;
+        -ms-border-radius: 100px;
+        -o-border-radius: 100px;
+}
+    
+    .h11 {
+        width: 345px;
+        font-size: 46px;
+        font-family: Arial, Helvetica, sans-serif;
+        color: rgb(46, 66, 101);
+        line-height: 1.25;
+        font-weight: 300;
+        text-align: left;
+        margin-top: 115px;
+        margin-left: 135px;
+    }
+    
+    .p1 {
+        width: 520px;
+        font-family: Arial, Helvetica, sans-serif;
+        color: rgb(46, 66, 101);
+        line-height: 1.25;
+        font-weight: 300;
+        text-align: left;
+        margin-top: 50px;
+        margin-left: 135px;
+    }
+    
+    .button1 {
+        border-radius: 28px;
+        background-color: rgb(214, 140, 111);
+        box-shadow: 0px 5px 5px 0px rgba(0, 0, 0, 0.2);
+        margin-left: 135px;
+        margin-top: 50px;
+        width: 200px;
+        height: 58px;
+        z-index: 121;
+    }
+    
+    .img1 {
+        background-image: url("Fotolia_30951296_Subscription_L.png");
+        position: absolute;
+        left: 799px;
+        top: 136px;
+        width: 262px;
+        z-index: 130;
+    }
+    
+    .img1s1 {
+        border-radius: 50%;
+        background-color: rgb(249, 248, 247);
+        opacity: 0.302;
+        position: absolute;
+        left: 659px;
+        top: 528px;
+        width: 569px;
+        height: 83px;
+        z-index: 128;
+    }
+    
+    .img1s2 {
+        border-radius: 50%;
+        background-color: rgb(249, 248, 247);
+        opacity: 0.302;
+        position: absolute;
+        left: 699px;
+        top: 538px;
+        width: 469px;
+        z-index: 128;
+    }
+    
+    .img1s3 {
+        border-radius: 50%;
+        background-color: rgb(249, 248, 247);
+        opacity: 0.302;
+        position: absolute;
+        left: 739px;
+        top: 540px;
+        width: 389px;
+        z-index: 128;
+    }
+    
+    .oyoq1 {
+        background-image: url("Shaddow.png");
+        opacity: 0.99;
+        position: absolute;
+        left: 845px;
+        top: 556px;
+        width: 206px;
+        z-index: 129;
+    }
+    
+    .imgo1 {
+        margin-top: -440px;
+        margin-left: 1167px;
+        width: 180px;
+        opacity: .09;
+    }
+    
+    .imgo2 {
+        margin-top: -490px;
+        width: 180px;
+        opacity: .19;
+    }
+    
+    #s2 {
+        width: 100%;
+        height: 200vh;
+    }
+    
+    #s2h1 {
+        font-size: 92px;
+        text-align: center;
+        margin-top: -10px;
+        opacity: .09;
+        font-weight: 600;
+        letter-spacing: 1rem;
+    }
+    
+    #s2p {
+        text-align: center;
+        letter-spacing: 10px;
+    }
+    
+    .imgss2 img:first-child {
+        margin: 0 auto;
+        margin-left: 10%;
+    }
+    
+    .imgss2 img:img:nth-child(2) {
+        margin: 0 auto;
+        margin-left: 10%;
+    }
+    
+    .imgss2 img:img:nth-child(3) {
+        margin: 0 auto;
+        margin-left: 20%;
+        box-shadow: blanchedalmond;
+    }
+    
+    .s2i3 {
+        margin-left: 100px;
+        margin-top: 20px;
+    }
+    
+    .s2i2 {
+        margin-left: 250px;
+    }
+    
+    .ciziq {
+        width: 75%;
+        height: 4px;
+        background-color: rgb(46, 66, 101);
+        position: absolute;
+        top: 800px;
+        display: block;
+        margin-left: 12.5%;
+    }
+    
+    .soyalar2 {
+        background-image: url("../img/s2s22.png");
+        position: absolute;
+        left: 1155px;
+        top: 782px;
+        width: 192px;
+        height: 696px;
+        z-index: 101;
+    }
+    
+    .soyalar1 {
+        width: 250px;
+        background-image: url(../img/s2z21.png);
+        top: 650px;
+        height: 320px;
+        position: absolute;
+        background-size: cover;
+    }
+    
+    .ciziqca1 {
+        width: .5%;
+        height: 40px;
+        background-color: rgb(46, 66, 101);
+        position: absolute;
+        top: 800px;
+        margin-left: 12.5%;
+    }
+    
+    .ciziqca2 {
+        width: .5%;
+        height: 40px;
+        background-color: rgb(46, 66, 101);
+        position: absolute;
+        top: 800px;
+        margin-left: 49.5%;
+    }
+    
+    .ciziqca3 {
+        width: .5%;
+        height: 40px;
+        background-color: rgb(46, 66, 101);
+        position: absolute;
+        top: 800px;
+        margin-left: 87.5%;
+    }
+    
+    .yozuv1 {
+        width: 1px;
+        position: absolute;
+        left: 9%;
+        color: rgb(46, 66, 101);
+        top: 805px;
+        font-family: arial;
+        font-size: 35px;
+    }
+    
+    .yozuv2 {
+        color: rgb(46, 66, 101);
+        width: 1px;
+        position: absolute;
+        left: 48.5%;
+        top: 850px;
+        font-family: arial;
+        font-size: 35px;
+    }
+    
+    .yozuv3 {
+        color: rgb(46, 66, 101);
+        width: 1px;
+        position: absolute;
+        left: 88.5%;
+        top: 805px;
+        font-family: arial;
+        font-size: 35px;
+    }
+    
+    .tablefors2 {
+        margin-top: 200px;
+        width: 80%;
+        text-transform: uppercase;
+        text-align: left;
+        margin: 200px auto 0;
+        color: rgb(46, 66, 101);
+        font-family: WorkSans;
+    }
+    
+    .tablefors2 th {
+        font-size: 52px;
+    }
+    
+    .tablefors2 .td td {
+        text-align: left;
+        text-transform: none;
+    }
+    
+    .ll {
+        width: 40%;
+    }
+    
+    #tables {
+        margin-top: 100px;
+    }
+    
+    .s3 {
+        width: 100%;
+        background-color: rgb(228, 221, 207);
+        left: 0px;
+        height: 421px;
+        
+      
+
+    }
+    
+    .subscribe {
+        width: 100%;
+        font-size: 60px;
+        font-family: "arial";
+        color: rgb(46, 66, 101);
+        font-weight: bold;
+        line-height: 0.333;
+        text-align: center;
+        position: absolute;
+        margin: 100px auto auto;
+        left: -200px;
+    }
+.s3 p{
+ 
+ font-size: 18px;
+ font-family: "Myriad Pro";
+ color: rgb(85, 85, 85);
+ line-height: 1.111;
+ text-align: right;
+margin-top: 200px;
+position: absolute;
+left: 290px;
+ 
+ 
+ z-index: 61;
+ 
+      
+}
+.input1{
+    padding: 10px;
+    width: 300px;
+    background-color: rgb(228, 221, 207);
+    color: black;
+    opacity: 1;
+    margin-top: 270px;
+    margin-left: 290px;
+}
+.ciziq4{
+    width: 340px;
+    height: 4px;
+    background-color: rgb(214, 140, 111);
+    margin-left: 290px;
+}
+.ciziq5{
+    width: 50px;
+    height: 50px;
+    background-color: rgb(214, 140, 111);
+    margin-left: 620px;
+   margin-top: -50px;
+   position: absolute;
+   border-color: rgb(214, 140, 111);
+}
+.ciziq5 img{
+width: 40px;
+margin-top: 3px;
+margin-right: 5px;
+
+}
+.tuxumjoja {
+    background-image: url("Fotolia_10527319_Subscription_L.png");
+    position: absolute;
+    left: 875px;
+    top: 2017px;
+    width: 243px;
+    height: 330px;
+    z-index: 71;
+  }
+.tuxumjojas {
+ 
+    position: absolute;
+    left: 1145px;
+    top: 2017px;
+    width: 203px;
+
+    z-index: 71;
+}
+.tuxumjojas1 {
+ 
+    position: absolute;
+    left: 0px;
+    top: 2017px;
+
+    z-index: 71;
+}
+.s4{
+    background: white;
+    width: 100%;
+    height: auto;
+    z-index: 2;
+}
+.crested{
+    width: 100%;
+    height: 83.3vh;
+   
+ 
+}
+.crested h1{
+    padding-top: 150px;
+    
+    font-size: 52px;
+    font-family: arial;
+    text-transform: none;
+    text-align: center;
+}
+.crested #crested{
+    color: coral;
+    font-size: 33px;
+   
+    font-weight: 600;
+    font-size: 50px;
+    font-family: "Myriad Pro";
+    color: rgb(214, 140, 111);
+    line-height: 0.4;
+    text-align: center;
+    
+}
+
+#cres1{
+    font-size: 16px;
+    font-family: "OpenSans";
+    color: rgb(85, 85, 85);
+    line-height: 1.875;
+    text-align: left;
+    position: absolute;
+    left: 576.002px;
+    font-family: sans-serif;
+    width: 624px;
+    height: 77px;
+    z-index: 22;
+  }
+.crestedphoto {
+    background-image: url("../img/s444png.png");
+    position: absolute;
+    left: 100px;
+    top: 2424px;
+    width: 414px;
+    height: 623px;
+    z-index: 11;
+  }
+.crestedphotos {
+    background-image: url(../img/s444png.png);
+    position: absolute;
+    background-repeat: no-repeat;
+    left: -40px;
+    top: 2534px;
+    width: 214px;
+    height: 723px;
+    opacity: .4;
+    z-index: 11;
+  }
+.crestedbutton{
+    /* margin-left: 576px; */margin: 0 auto;
+    margin-top: 180px;
+    width: 180px;
+    height: 40px;
+    text-align: center;
+    background-color:rgb(214, 140, 111);
+    border: 1px black solid;
+    border-radius: 100px;
+    -webkit-border-radius: 100px;
+    -moz-border-radius: 100px;
+    -ms-border-radius: 100px;
+    -o-border-radius: 100px;
+}
+
+.crestedbutton div{
+    position: absolute;
+    width: 180px;
+    height: 20px;
+    margin-top: 10px;
+    cursor: pointer;
+}
+.rouenphoto {
+    background-image: url("../img/s444png.png");
+    background-repeat: no-repeat;
+    position: absolute;
+    left: 180px;
+    top: 3074px;
+    width: 314px;
+    height: 623px;
+    z-index: 11;
+  }
+  .rouenphotos {
+    background-image: url(../img/s4i2.png);
+    position: absolute;
+    background-repeat: no-repeat;
+    left: -90px;
+    top: 3050px;
+    width: 314px;
+    height: 723px;
+    opacity: .4;
+    z-index: 11;
+  }
+  .muscovyphoto {
+    background-image: url("../img/s444png.png");
+    background-repeat: no-repeat;
+    position: absolute;
+    left: 180px;
+    top: 3704px;
+    width: 314px;
+    height: 623px;
+    z-index: 11;
+  }
+  .muscovyphotos {
+    background-image: url(../img/s4i3.png);
+    position: absolute;
+    background-repeat: no-repeat;
+    left: -90px;
+    top: 3700px;
+    width: 314px;
+    height: 723px;
+    opacity: .4;
+    z-index: 11;
+  }
+.s6{
+    box-shadow:  0 0 10PX rgb(88, 88, 88), inset  0 0 10PX rgb(88, 88, 88);
+    width: 100%;
+    height: 250px;
+    background-image: url(../img/paper.gif);
+    background-size: contain;
+    padding-bottom: 0rem;
+    margin-bottom: 0;
+    position: absolute;
+    display: flex;
+    justify-content: space-between;
+}
+.ch1{  
+    width: 25%;
+    display: inline-block;
+    opacity: 1;
+    
+}
+
+.ch1 h1{  
+    margin-top: 90px;
+    font-weight: 200;
+    font-family: algerian;
+    text-align: center;
+    
+}
+.ch1 h3{  
+    font-weight: 200;
+    font-family: algerian;
+    margin-left: 45px;
+    
+}
+.ch2{  
+    width: 25%;
+    display: inline-block;
+    opacity: 1;
+    font-family: algerian;
+    opacity: .8;
+}   
+.ch2 h2{  
+    cursor: pointer;
+}   
+.ch2 h3{  
+    cursor: pointer;
+}   

@@ -1,0 +1,209 @@
+@charset "UTF-8";
+@font-face{
+    font-family: smay1;
+    src: url("../font/smay1.ttf");
+}
+@font-face{
+    font-family: smay2;
+    src: url("../font/smay2.ttf");
+}
+@font-face{
+    font-family: smay3;
+    src: url("../font/smay3.ttf");
+}
+@font-face{
+    font-family: smay4;
+    src: url("../font/smay4.ttf");
+}
+@font-face{
+    font-family: smay5;
+    src: url("../font/smay5.ttf");
+}
+body{
+    font-family: smay5;
+}
+.butun{
+    background-image: url("../img/background.jpg");
+    background-size: 100%;
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 700px;
+
+   
+}
+.r{
+    text-align: center;
+    position: fixed;
+    
+    font-size: 20px;
+    margin-top: 35px;
+}
+.r a:hover{
+    font-family: smay5;
+    color: blue;
+    
+}
+.t{
+    
+    
+
+}
+.tt{
+   
+    display: block;
+    text-align: center;
+    position: fixed;
+    margin-top: -570px;
+    margin-left: 430px;
+    font-size: 34px;
+}
+menu > li > ul > li{
+    display: none;
+}
+menu > li:hover > ul > li{
+    margin-left: -140px;
+  display: block;
+    
+}
+menu > li:hover > ul{
+    position: absolute;
+    display: block;
+    
+}
+.r a{
+   text-decoration: none;
+   color: red;
+   color: aqua;
+}
+.logo{
+    background-image: url("../img/logo.svg");
+    width: 45px;
+    height: 45px;
+    background-size: contain;
+    background-repeat: no-repeat;
+    display: inline-block;
+}
+menu li{
+    display: inline-block;
+    float: right;
+    padding-left: 70px;
+    padding-top: 20px;
+    
+}
+.aboutlar menu{
+    margin-right: 50px;
+    
+}
+menu li a{
+    text-decoration: none;
+    color: white;
+    font-family: smay4;
+}
+menu li a:hover{
+    border-bottom: 1px solid rgb(255, 232, 158);
+    padding-bottom: 10px;
+    color: rgb(255, 232, 158);
+    font-size: 18px;
+   
+
+}
+.butun h1{
+    text-align: center;
+    font-family: smay3;
+    cursor: pointer;
+    color: #fff;
+    margin-top: 120px;
+}
+.butun h2{
+    text-align: center;
+    font-family: smay1;
+    cursor: pointer;
+    font-size: 120px;
+    color: rgb(255, 244, 244);
+    margin-top: 30px;
+}
+.yarmi h2:after{
+    content: '';
+    background-color: rgb(254, 254, 255);
+    width:100px;
+    display: block;
+    height: 3px;
+    margin: 30px auto 0;
+}
+.l{
+    border: 2px solid white;
+    width: 180px;
+    text-align: center;
+    height: 40px;
+    margin: 20px auto 30px;
+    cursor: pointer;
+    
+}
+.l2{
+    margin-top: 12px;
+}
+.l a{
+    text-decoration: none;
+    color: white;
+}
+.s2 h2{
+    font-family: smay4;
+    text-align: center;
+    font-size: 20px;
+}
+.s2 h1{
+    font-family: smay4;
+    text-align: center;
+    font-size: 50px;
+}
+.s2 p{
+    text-align: center;
+    width: 900px;
+    margin: 10px auto;
+}
+.images img{
+   
+   
+}
+.images{
+   text-align: center;
+}
+.items{
+    margin: 0 auto;
+    text-align: center;
+    padding: 30px 20px 0;
+    display: inline-block;
+    
+}
+.item{
+    display: inline-block;
+    vertical-align: top;
+    margin-left: 0;
+    margin-top: 20px;
+}
+.sertit{
+    display: inline-block;
+    text-align: left;
+    width: 350px;
+    padding-top: 5px ;
+}
+.s3{
+    background-color: rgb(216, 216, 216);
+    padding-bottom: 20px;
+}
+.s3 h4{
+    text-align: center;
+    font-family: smay4;
+    font-size: 20px;
+}
+.s3 h3{
+    text-align: center;
+    font-family: smay4;
+    font-size: 40px;
+}
+.sertit p{
+    margin-top: 2px;
+}
+.s3{
+    font-family: smay5;
+}

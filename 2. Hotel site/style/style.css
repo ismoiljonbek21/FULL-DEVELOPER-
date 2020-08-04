@@ -1,0 +1,239 @@
+@charset "UTF-8";
+@import "normal.css";
+@font-face{
+    font-family: "s1";
+    src: url("../signifaylite/signifylite-webfont.woff");
+}
+@font-face{
+    font-family: smay1;
+    src: url("../font/smay1.ttf");
+}
+@font-face{
+    font-family: smay2;
+    src: url("../font/smay2.ttf");
+}
+@font-face{
+    font-family: smay3;
+    src: url("../font/smay3.ttf");
+}
+@font-face{
+    font-family: smay4;
+    src: url("../font/smay4.ttf");
+}
+@font-face{
+    font-family: smay5;
+    src: url("../font/smay5.ttf");
+}
+ menu{
+    float: right;
+    margin-top: 10px;
+    display: block;
+}
+ menu > li{
+    display: inline-block;
+    margin-right: 50px;
+    transition-property: animation;
+    font-family: "smay1";  transition-property: all;
+    transition-duration: 1s;
+  
+ }
+ menu > li:hover{
+    /* animation: ani 3s  linear infinite ; */
+    box-shadow:  #000 10px 10px 50px ;
+  
+     
+}
+.tr2 img:hover{
+    transform: scale(1.2);
+}
+.container{
+    width: 100%;
+    height: 100vh;
+    margin-top: -40px;
+    background-image: url("../img/Layer\ 3.jpg");
+    background-size: cover;
+}
+a{
+    text-decoration: none;
+    color: rgb(139, 139, 139);
+    
+}
+a:hover{
+    color:  rgb(247, 222, 81);
+    text-decoration-color: rgb(172, 106, 19);
+    text-decoration:1px red solid;
+    border-bottom: 2px solid rgb(247, 222, 81);
+    padding-bottom: 5px;
+    cursor: pointer;
+}
+.l{
+    margin-left: 42%;
+    color: white;
+    font-size: 22px;
+    background-color: rgb(9, 177, 9);
+    width: 200px;
+    height: 50px;
+    border-radius: 8px;
+    text-align: center;
+    box-shadow: black 0 0 8px;
+    font-family: "smay4";
+}
+.ll{
+   padding-top: 10px;
+   
+}
+.l:active{
+    transform: scale(0.8);
+}
+.l a{
+    color: blanchedalmond;
+}
+.tr1{
+    font-family: "s1";
+    font-size: 28px;
+    cursor: pointer;
+}
+.tr1 th{
+    width: 50px;
+}
+.s2{
+    background-color: rgb(255, 255, 255);
+    position: absolute;
+    margin-top: -60px;
+    margin-left: 425px;
+    box-shadow: green 10px 8px 3px;
+    border-radius: 10px;
+    
+    
+}
+table{
+    text-align: center;
+}
+.s2 table img{
+    width: 100px;
+}
+.container h2{
+    text-align: center;
+    color: white;
+    font-size: 48px;
+}
+.s3 table{
+    margin-top:100px;
+    margin-left: 220px;
+    text-align: center;
+    
+}
+table tr p{
+    text-align: center;
+    font-family: "smay3";
+}
+.tr2{
+    font-family: "s1";
+    font-size: 40px;
+}
+.s3 table td{
+    width: 300px;
+}
+.s3 table a{
+    color: black;
+}
+.h3{
+    color: white;
+    margin-top: 20px;
+    width: 20px;
+    height: 50px;
+}
+.loren{
+    padding-top: 290px;
+    width: 900px;
+    text-align: center;
+    margin: 0 auto;
+    font-family: "smay4";
+    font-size: 30px;
+    font-variant: small-caps;
+}
+.container h1{
+    padding-top: 200px;
+    font-size: 60px;
+    text-align: center;
+    font-family: "smay5";
+    color: rgb(255, 255, 255);
+}
+.s3{
+    padding-bottom: 30px;
+}
+@keyframes ani{
+    0%{
+        box-shadow: black 0 0 0;
+    }
+    12.5%{
+        box-shadow: rgb(253, 19, 19) 0 0 5px;
+    }
+    25%{
+        box-shadow: rgb(7, 11, 245) 0 0 10px;
+    }
+    37.5%{
+        box-shadow: rgb(15, 240, 15) 0 0 15px;
+    }
+    50%{
+        box-shadow: black 0 0 20px;
+    }
+    62.5%{
+        box-shadow: rgb(15, 240, 15) 0 0 15px;
+    }
+    77.5%{
+        box-shadow: rgb(7, 11, 245) 0 0 10px;
+    }
+ 100%{
+        box-shadow: rgb(253, 19, 19) 0 0 5px;
+    }
+    
+   
+}
+menu > li:first-child{
+    float: left;
+    margin-right: 700px;
+    font-family: "smay5";
+    font-size: 20px;
+   
+}menu > li:first-child:hover{
+     animation: ani 3s linear infinite;
+}
+.s3 img:hover{
+    animation: ani 3s linear infinite ;
+}
+ th h2{
+    font-family: "smay5";
+}
+h2{
+    font-family: "smay6";
+}
+menu li ul li{
+    display: none;
+
+    
+}
+menu li:hover ul li{
+    display: block;
+    margin-right: 0;
+
+}
+menu > li > ul{
+   position: absolute;
+   margin-top: 0;
+
+}
+#txt li a{
+    color: black;
+}
+
+
+#txt li:nth-child(3){
+    margin-top: 3px;
+}
+#txt li:nth-child(2){
+    margin-top: 3px;
+}
+#txt li:nth-child(4){
+    margin-top: 3px;
+}
