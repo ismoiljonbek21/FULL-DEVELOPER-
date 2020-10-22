@@ -1,0 +1,567 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>BlueRex</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css"
+        integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
+    <link rel="icon" type="image/png"href="img/Shape.png">
+    <link rel="stylesheet" href="style/style.css">
+
+</head>
+
+<body>
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
+        integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous">
+    </script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"
+        integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous">
+    </script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"
+        integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV" crossorigin="anonymous">
+    </script>
+    <script src="js/script.js" defer></script>
+    <div class = "preloader">
+        <div class="preloader__row">
+          <div class="preloader__item"> </div>
+          <div class="preloader__item"> </div>
+        </div>
+      </div>
+    <header class="main-header">
+        <nav class="navbar navbar-expand-lg navbar-light">
+            <a href="#" class="navbar-brand text-light"><img src="img/Shape.png" alt="">BlueRex</a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
+                aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation"><span
+                    class="navbar-toggler-icon"></span></button>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav ml-auto">
+                    <li class="navbar-item active">
+                        <a href="#" class="nav-link text-light">home <span class="sr-only"></span></a>
+                    </li>
+                    <li class="navbar-item active">
+                        <a href="#" class="nav-link text-light">about</a>
+                    </li>
+                    <li class="navbar-item active">
+                        <a href="#" class="nav-link text-light">features</a>
+                    </li>
+                    <li class="navbar-item active">
+                        <a href="#" class="nav-link text-light">reviews</a>
+                    </li>
+                    <li class="navbar-item active">
+                        <a href="#" class="nav-link text-light">FAQ</a>
+                    </li>
+                    <li class="navbar-item active">
+                        <a href="#" class="nav-link text-light">contact</a>
+                    </li>
+                </ul>
+            </div>
+        </nav>
+        <div class="main-header-text">
+            <h3 class="font-italic">We are best and creative agency</h3>
+            <h4>We turn creative ideas
+                into your business.</h4>
+            <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Porro sint deserunt tempora ex eos
+                necessitatibus!</p>
+            <div class="main-div-buttons">
+                <button type="button" class="btn btn-pil rounded-pill">our story</button>
+                <button type="button" class="btn btn-vollet rounded-pill">read more</button>
+            </div>
+        </div>
+    </header>
+    <section class="watch">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-6 col-md-6 col-sm-12">
+                    <h3 id="blan">Dream Big Inspire The world</h3>
+                    <h4 id="va">We turn creative ideas into your business.</h4>
+                    <ul class="nav nav-pills" id="myTab" role="tablist">
+                        <li class="nav-item" role="presentation">
+                            <a class="nav-link active rounded-pill" id="web-design-tab" data-toggle="tab"
+                                href="#web-design" role="tab" aria-controls="web-design"
+                                aria-selected="true">web-design</a>
+                        </li>
+                        <li class="nav-item" role="presentation">
+                            <a class="nav-link rounded-pill" id="mobileApp-tab" data-toggle="tab" href="#mobileApp"
+                                role="tab" aria-controls="mobileApp" aria-selected="false">mobileApp</a>
+                        </li>
+                        <li class="nav-item" role="presentation">
+                            <a class="nav-link rounded-pill" id="brending-tab" data-toggle="tab" href="#brending"
+                                role="tab" aria-controls="brending" aria-selected="false">brending</a>
+                        </li>
+                    </ul>
+                    <div class="tab-content" id="myTabContent">
+                        <div class="tab-pane fade show active" id="web-design" role="tabpanel"
+                            aria-labelledby="web-design-tab">web-design
+                            Lorem ipsum dolor sit amet consectetur adipisicing elit. Obcaecati debitis dolorum aliquid,
+                            inventore iure quod odio adipisci ipsa earum alias. <br>
+                            <p class="btn btn-pill">read more</p>
+                        </div>
+                        <div class="tab-pane fade" id="mobileApp" role="tabpanel" aria-labelledby="mobileApp-tab">
+                            mobileApp
+                            Lorem ipsum dolor sit amet consectetur adipisicing elit. Distinctio reprehenderit natus
+                            expedita dignissimos voluptate. Ipsa. <br>
+                            <p class="btn btn-pill">read more</p>
+                        </div>
+                        <div class="tab-pane fade" id="brending" role="tabpanel" aria-labelledby="brending-tab">brending
+                            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Praesentium dignissimos nemo
+                            voluptatem distinctio, ex doloremque cumque recusandae! <br>
+                            <p class="btn btn-pill">read more</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-6 col-md-6 col-sm-12">
+                    <img src="img/watch-3.png" draggable="false" class="img-fluid" alt="">
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="progress text-center">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-4 item-rec text-light">
+                    <img src="img/micress.png" alt="">
+                    <div class="num mt-4 mb-4">500+</div>
+                    <h4 id="edge"><span>successfully</span><br> complated projects</h4>
+                    <p id="ege">Lorem ipsum dolor, sit amet consectetur adipisicing elit.</p>
+                </div>
+                <div class="col-md-4 item-rec text-light">
+                    <img src="img/micress.png" alt="">
+                    <div class="num mt-4 mb-4">254+</div>
+                    <h4 id="edge"><span>Hightly</span> specialised
+                        employees</h4>
+                    <p id="ege">Lorem ipsum dolor, sit amet consectetur adipisicing elit.</p>
+                </div>
+                <div class="col-md-4 item-rec text-light">
+                    <img src="img/micress.png" alt="">
+                    <div class="num mt-4 mb-4">25+</div>
+                    <h4 id="edge"><span>awards</span><br> around the world</h4>
+                    <p id="ege">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Lorem ipsum dolor, sit amet
+                        consectetur adipisicing elit.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="lets text-center">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-12">
+                    <h3>Let's Grow Together</h3>
+                    <h4>We turn creative ideas into your business.</h4>
+                    <p class="lorem">Lorem ipsum dolor sit amet consectetur adipisicing elit. Obcaecati reprehenderit
+                        <br> in laboriosam facere eveniet deleniti ex, assumenda ratione?</p>
+                    <p class="btn btn-pill" id="btni">read more</p>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="design">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-6 col-md-6 col-sm-6">
+                    <h3 id="best">We are best and creative agency</h3>
+                    <h4 id="turn">We turn creative ideas
+                        into your business.</h4>
+                    <p id="ipsum">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Laborum magni libero dolor
+                        molestias
+                        minima labore earum esse, qui nesciunt cumque exercitationem perspiciatis fuga reprehenderit.
+                    </p>
+                </div>
+                <div class="col-lg-6 col-md-6 col-sm-6" id="iframe">
+                    <iframe width="440" id="red" height="370" src="https://www.youtube.com/embed/wHDVX2E8nLY"
+                        frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
+                        allowfullscreen></iframe>
+                </div>
+                <div class="col-lg-3 col-md-6 col-sm-6 mb-3">
+                    <img src="img/comment.png" alt="">
+                    <h5>graphic design</h5>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sint minus quis ipsa aperiam accusantium
+                        qui.</p>
+                    <p class="btn btn-pill">read more</p>
+                </div>
+                <div class="col-lg-3 col-md-6 col-ms-6 mb-3">
+                    <img src="img/kanney.png" alt="">
+                    <h5>graphic design</h5>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sint minus quis ipsa aperiam accusantium
+                        qui.</p>
+                    <p class="btn btn-pill">read more</p>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="ozqoldi">
+        <div class="container text-center">
+            <div class="row">
+                <div class="col">
+                    <h4>Our Recent Work</h4>
+                    <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Accusamus beatae eius numquam placeat,
+                        sunt itaque repellat nisi adipisci modi sed, dolore, non veritatis reprehenderit. Cumque
+                        voluptas officia sit id animi quis quaerat exercitationem quo doloribus?</p>
+                </div>
+                <div class="col-md-12">
+                    <ul class="nav nav-pills justify-content-center" id="myTab2" role="tablist">
+                        <li class="nav-item" role="presentation">
+                            <a class="nav-link active rounded-pill" id="web-design2-tab" data-toggle="tab"
+                                href="#web-design2" role="tab" aria-controls="web-design2"
+                                aria-selected="true">web-design</a>
+                        </li>
+                        <li class="nav-item" role="presentation">
+                            <a class="nav-link rounded-pill" id="mobileApp2-tab" data-toggle="tab" href="#mobileApp2"
+                                role="tab" aria-controls="mobileApp2" aria-selected="false">mobileApp</a>
+                        </li>
+                        <li class="nav-item" role="presentation">
+                            <a class="nav-link rounded-pill" id="brending2-tab" data-toggle="tab" href="#brending2"
+                                role="tab" aria-controls="brending2" aria-selected="false">brending</a>
+                        </li>
+                    </ul>
+                    <div class="tab-content" id="myTabContent">
+                        <div class="tab-pane fade show active" id="web-design2" role="tabpanel"
+                            aria-labelledby="web-design2-tab">
+                            <div class="gallery text-center row">
+                                <div class="col-sm-4 gallery-item">
+                                    <a href="img/Replacer.png">
+                                        <img src="img/Replacer.png" alt="">
+                                    </a>
+                                </div>
+                                <div class="col-sm-4 gallery-item">
+                                    <a href="img/Replar.png">
+                                        <img src="img/Replar.png" alt="">
+                                    </a>
+                                </div>
+                                <div class="col-sm-4 gallery-item">
+                                    <a href="img/Replace Image.png">
+                                        <img src="img/Replace Image.png" alt="">
+                                    </a>
+                                </div>
+                                <div class="col-sm-4 gallery-item">
+                                    <a href="img/5Image.png">
+                                        <img src="img/5Image.png" alt="">
+                                    </a>
+                                </div>
+                                <div class="col-sm-4 gallery-item">
+                                    <a href="img/6Image.png">
+                                        <img src="img/6Image.png" alt="">
+                                    </a>
+                                </div>
+                                <div class="col-sm-4 gallery-item">
+                                    <a href="img/7Image.png">
+                                        <img src="img/7Image.png" alt="">
+                                    </a>
+                                </div>
+                                <div class="col-sm-4 gallery-item">
+                                    <a href="img/8Image.png">
+                                        <img src="img/8Image.png" alt="">
+                                    </a>
+                                </div>
+                                <div class="col-sm-4 gallery-item">
+                                    <a href="img/9Image.png">
+                                        <img src="img/9Image.png" alt="">
+                                    </a>
+                                </div>
+                                <div class="col-sm-4 gallery-item">
+                                    <a href="img/10Image.png">
+                                        <img src="img/10Image.png" alt="">
+                                    </a>
+                                </div>
+                            </div>
+                            <p class="btn btn-pill">read more</p>
+                        </div>
+                        <div class="tab-pane fade" id="mobileApp2" role="tabpanel" aria-labelledby="mobileApp2-tab">
+                            <div class="gallery text-center row">
+                                <div class="col-sm-4 gallery-item">
+                                    <a href="img/Replace Image.png">
+                                        <img src="img/Replace Image.png" alt="">
+                                    </a>
+                                </div>
+                                <div class="col-sm-4 gallery-item">
+                                    <a href="img/Replacer.png">
+                                        <img src="img/Replacer.png" alt="">
+                                    </a>
+                                </div>
+                                <div class="col-sm-4 gallery-item">
+                                    <a href="img/Replar.png">
+                                        <img src="img/Replar.png" alt="">
+                                    </a>
+                                </div>
+                                <div class="col-sm-4 gallery-item">
+                                    <a href="img/5Image.png">
+                                        <img src="img/5Image.png" alt="">
+                                    </a>
+                                </div>
+                                <div class="col-sm-4 gallery-item">
+                                    <a href="img/6Image.png">
+                                        <img src="img/6Image.png" alt="">
+                                    </a>
+                                </div>
+                                <div class="col-sm-4 gallery-item">
+                                    <a href="img/7Image.png">
+                                        <img src="img/7Image.png" alt="">
+                                    </a>
+                                </div>
+                                <div class="col-sm-4 gallery-item">
+                                    <a href="img/8Image.png">
+                                        <img src="img/8Image.png" alt="">
+                                    </a>
+                                </div>
+                                <div class="col-sm-4 gallery-item">
+                                    <a href="img/9Image.png">
+                                        <img src="img/9Image.png" alt="">
+                                    </a>
+                                </div>
+                                <div class="col-sm-4 gallery-item">
+                                    <a href="img/10Image.png">
+                                        <img src="img/10Image.png" alt="">
+                                    </a>
+                                </div>
+                            </div>
+                            <p class="btn btn-pill">read more</p>
+                        </div>
+                        <div class="tab-pane fade" id="brending2" role="tabpanel" aria-labelledby="brending2-tab">
+                            <div class="gallery text-center row">
+                                <div class="col-sm-4 gallery-item">
+                                    <a href="img/Replace Image.png">
+                                        <img src="img/Replace Image.png" alt="">
+                                    </a>
+                                </div>
+                                <div class="col-sm-4 gallery-item">
+                                    <a href="img/Replacer.png">
+                                        <img src="img/Replacer.png" alt="">
+                                    </a>
+                                </div>
+                                <div class="col-sm-4 gallery-item">
+                                    <a href="img/Replar.png">
+                                        <img src="img/Replar.png" alt="">
+                                    </a>
+                                </div>
+                                <div class="col-sm-4 gallery-item">
+                                    <a href="img/5Image.png">
+                                        <img src="img/5Image.png" alt="">
+                                    </a>
+                                </div>
+                                <div class="col-sm-4 gallery-item">
+                                    <a href="img/6Image.png">
+                                        <img src="img/6Image.png" alt="">
+                                    </a>
+                                </div>
+                                <div class="col-sm-4 gallery-item">
+                                    <a href="img/7Image.png">
+                                        <img src="img/7Image.png" alt="">
+                                    </a>
+                                </div>
+                                <div class="col-sm-4 gallery-item">
+                                    <a href="img/8Image.png">
+                                        <img src="img/8Image.png" alt="">
+                                    </a>
+                                </div>
+                                <div class="col-sm-4 gallery-item">
+                                    <a href="img/9Image.png">
+                                        <img src="img/9Image.png" alt="">
+                                    </a>
+                                </div>
+                                <div class="col-sm-4 gallery-item">
+                                    <a href="img/10Image.png">
+                                        <img src="img/10Image.png" alt="">
+                                    </a>
+                                </div>
+                            </div>
+                            <p class="btn btn-pill">read more</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="brends">
+        <div class="container">
+            <div class="row align-items-center">
+                <div class="col-3">
+                    <img src="img/cisco.png" alt="">
+                </div>
+                <div class="col-3">
+                    <img src="img/adidas.png" alt="">
+                </div>
+                <div class="col-3">
+                    <img src="img/Lenovo.png" alt="">
+                </div>
+                <div class="col-3">
+                    <img src="img/disnep.png" alt="">
+                </div>
+            </div>
+            <div class="row align-items-center">
+                <div class="col-3">
+                    <img src="img/amazon.png" alt="">
+                </div>
+                <div class="col-3">
+                    <img src="img/puma.png" alt="">
+                </div>
+                <div class="col-3">
+                    <img src="img/apple.png" alt="">
+                </div>
+                <div class="col-3">
+                    <img src="img/mini.png" alt="">
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="akaxon">
+        <div class="container">
+            <div class="row">
+                <div class="col-xl-5">
+                    <h3>our happy clients</h3>
+                    <h4>testimonials</h4>
+                    <div class="quot">
+                        <img src="img/“.png" id="trnoq" alt="">
+                        <p style="font-size: 12px;">Lorem ipsum dolor sit amet consectetur adipisicing elit. Aliquam fugit sit optio, voluptatem
+                            iusto sequi cumque accusantium, delectus ipsa nobis tempore impedit, doloremque dignissimos. <br>
+                            <img src="img/zvezda.png" alt="">
+                            <h5 style="margin-left: 50px; font-weight: 200;
+                            ">Mr.Jhon Deo</h5>
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="form">
+        <div class="container text-center text-light">
+            <h4>Need Help?</h4>
+            <h5>don't forgot to contact with us</h5>
+            <p style="font-size: 15px;font-weight: 100; text-align: center;margin: 0 auto;">Lorem ipsum dolor sit amet,
+                consectetur adipisicing elit. Numquam, perferendis corrupti aliquam cupiditate iusto recusandae eius
+                dicta magni at ad debitis? Quis, maiores? Eveniet veritatis hic sequi odit laboriosam commodi!</p>
+
+            <form action="#" id="suf">
+                <div class="row">
+                    <div class="col-md-5">
+                        <input type="text" name="" id="ints" placeholder="name">
+                    </div>
+                    <div class="col-md-5">
+                        <input type="email" name="" id="ints" placeholder="email">
+                    </div>
+                    <div class="col-md-2">
+                        <button type="submit" class="btn btn-bull">submit</button>
+                    </div>
+
+                </div>
+
+            </form>
+        </div>
+    </section>
+    <section class="networks">
+        <div class="container text-center text-light">
+            <div class="row justify-content-center">
+                <div class="col col-sm-1">
+                    <p>facebook</p>
+                </div>
+                <div class="hr"></div>
+                <div class="col col-md-2 col-sm-1">
+                    <p>twitter</p>
+                </div>
+                <div class="hr"></div>
+                <div class="col col-md-2 col-sm-1">
+                    <p>linkedIn</p>
+                </div>
+                <div class="hr"></div>
+                <div class="col col-md-2 col-sm-1">
+                    <p>instagram</p>
+                </div>
+                <div class="hr"></div>
+                <div class="col col-md-2 col-sm-1">
+                    <p>behanace</p>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="perfect">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-6 col-sm-12">
+                    <div class="row footing">
+                        <div class="col-6">
+                            <h5>Company</h5>
+                            <ul id="ul">
+                                <li><a href="#">about</a></li>
+                                <li><a href="#">approach</a></li>
+                                <li><a href="#">Sustianability</a></li>
+                                <li><a href="#">carees</a></li>
+                                <li><a href="#">news</a></li>
+                            </ul>
+                        </div>
+                        <div class="col-6">
+                            <h5>Company</h5>
+                            <ul id="ul">
+                                <li><a href="#">about</a></li>
+                                <li><a href="#">approach</a></li>
+                                <li><a href="#">Sustianability</a></li>
+                                <li><a href="#">carees</a></li>
+                                <li><a href="#">news</a></li>
+                            </ul>
+                        </div>
+                        <div class="col-6">
+                            <h5>Company</h5>
+                            <ul id="ul">
+                                <li><a href="#">about</a></li>
+                                <li><a href="#">approach</a></li>
+                                <li><a href="#">Sustianability</a></li>
+                                <li><a href="#">carees</a></li>
+                                <li><a href="#">news</a></li>
+                            </ul>
+                        </div>
+                        <div class="col-6">
+                            <h5>Company</h5>
+                            <ul id="ul">
+                                <li><a href="#">about</a></li>
+                                <li><a href="#">approach</a></li>
+                                <li><a href="#">Sustianability</a></li>
+                                <li><a href="#">carees</a></li>
+                                <li><a href="#">news</a></li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-6 col-sm-12 footer-images">
+                    <div class="row">
+                        <div class="col-6"><img src="img/11Image.png" alt=""></div>
+                        <div class="col-6"><img src="img/12Image.png" alt=""></div>
+                        <div class="col-6"><img src="img/14Image.png" alt=""></div>
+                        <div class="col-6"><img src="img/15Image.png" alt=""></div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+    </section>
+    <div class="footer" id="copyright">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-12 ">
+                    <ul class="nav  text-center">
+                        <li class="nav-item nav-link">
+                            &copy;2020 Theme By PsdFreewebsite.com
+                        </li>
+                        <li class="nav-item nav-link"><a href="#">privacy</a></li>
+                        <li class="nav-item nav-link"><a href="#">Terms of Use </a></li>
+                        <li class="nav-item nav-link"><a href="#">site map</a></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script>
+        window.onload = function () {
+          document.body.classList.add('loaded');
+        }
+      </script>
+      <script>
+        window.onload = function () {
+          document.body.classList.add('loaded_hiding');
+          window.setTimeout(function () {
+            document.body.classList.add('loaded');
+            document.body.classList.remove('loaded_hiding');
+          }, 500);
+        }
+      </script>
+</body>
+
+</html>
